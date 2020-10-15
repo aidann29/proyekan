@@ -120,11 +120,7 @@ void pesantiket() {
  }
 }
 
-void info() {
-  system("cls");
-  printf("\tINFO PENGGUNAAN PROGRAM\n");
-  getch(); 
-}
+
 void pembayaran() { //menampilkan menu pembayaran
  if(condition == false) {
   printf("\n\nLakukan pemesanan tiket terlebih dahulu!");
@@ -158,4 +154,77 @@ void keluar() { //fungsi untuk keluar
 
 void cekdata() { //fungsi untuk mengecek data pemesan tiket
  printf("\nMENGECEK DATA PEMESANAN . . .\n");
+}
+
+
+
+
+
+
+
+void info() {
+  system("cls");
+  printf("\t\t\t\tINFO PENGGUNAAN PROGRAM\n\n\n");
+  printf("\n\t\t\t");
+printf("\n\t\t\t  __");
+printf("\n\t\t\t    \\");
+printf("\n\t\t\t     \\_______________________");
+printf("\n\t\t\t      \\                     \\");
+printf("\n\t\t\t       \\                     \\");
+printf("\n\t\t\t        \\                     \\");
+printf("\n\t\t\t         \\                     \\");
+printf("\n\t\t\t          \\_____________________\\");
+printf("\n\t\t\t              ()            ()");
+printf("\n\n\n\t\t\t\t       |-------|");
+printf("\n\t\t\t\t       |   1   |");
+printf("\n\t\t\t\t       |-------|");
+
+printf("\n\n\t\t\t\t     Pesan tiket mu");
+printf("\n\n\t\t\t\t     press any key to go next step");
+
+
+getch();
+system("cls");
+printf("\n\n\t\t\t |---------------------------------------|");
+printf("\n\t\t\t |\t\t\t                 |");
+printf("\n\t\t\t |\t\t\t                 |");
+printf("\n\t\t\t |\t\t____    _____\t    \t |");
+printf("\n\t\t\t |\t\t|___\\  |    |\t    \t |");
+printf("\n\t\t\t |\t\t|   \\  |____|\t      \t |");
+printf("\n\t\t\t |\t\t|    \\ |\t         |");
+printf("\n\t\t\t |\t\t\t            \t |");
+printf("\n\t\t\t |\t\t\t            \t |");
+printf("\n\t\t\t |\t\t\t                 |");
+printf("\n\t\t\t |---------------------------------------|\n\n");
+
+printf("\n\n\n\n\t\t\t\t   	  |-------|");
+printf("\n\t\t\t\t  	  |   2   |");
+printf("\n\t\t\t\t  	  |-------|");
+
+printf("\n\n\t\t\t\t       Bayar tiket mu");
+printf("\n\n\t\t\t\t     press any key to go next step");
+
+
+getch();
+system("cls");
+printf("\n\t\t\t\t          1111111");
+printf("\n\t\t\t\t         1       1");
+printf("\n\t\t\t\t         1       1");
+printf("\n\t\t\t\t    111111       111111");
+printf("\n\t\t\t\t    1111111111111111111");
+printf("\n\t\t\t\t    1111111111111111111");
+printf("\n\t\t\t\t    1111111111111111111");
+printf("\n\t\t\t\t    1111           1111");
+printf("\n\t\t\t\t    1111  -------  1111");
+printf("\n\t\t\t\t      11  -------  11  ");
+printf("\n\t\t\t\t      11           11  ");
+printf("\n\t\t\t\t        11111111111");
+
+printf("\n\n\n\n\n\t\t\t\t   	 |-------|");
+printf("\n\t\t\t\t   	 |   3   |");
+printf("\n\t\t\t\t  	 |-------|");
+
+printf("\n\n\t\t\t\t      Print tiket mu");
+printf("\n\n\t\t\t\t     press any key to go to menu");  
+  getch(); 
 }
